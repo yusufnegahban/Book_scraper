@@ -1,24 +1,35 @@
-# Book_scraper
-Book scraping and display app with Flask
+📚 Book Scraper Flask App
+This app scrapes book info from Books to Scrape, saves it in a PostgreSQL database, and shows it in a simple Flask web app.
 
-# Book Scraper Flask App 📚
+🚀 Features
+Scrapes book title, author, ISBN, price, availability, publish date
 
-This app scrapes book data from [Books to Scrape](http://books.toscrape.com/), stores it in a PostgreSQL database, and displays it via a Flask web app.
+Handles multiple pages (pagination)
 
-## 🚀 Features
+Stores data using SQLAlchemy with PostgreSQL
 
-- Scrape title, author, ISBN, price, availability
-- Store in PostgreSQL using SQLAlchemy
-- Web interface with search + pagination
-- REST API to get book data (JSON)
-- Unit tests with pytest
+Web interface with search and pagination
 
-## 🛠 How to Run
+REST API to get book data in JSON
 
-```bash
-git clone <your-repo-url>
-cd project-folder
+Basic unit tests for scraping and web routes
+
+🛠 How to Run
+پ
 pip install -r requirements.txt
-python scraper.py  # Scrapes the books
-python app.py      # Starts the Flask web app
+python scraper.py    # Scrape and save books
+python app.py        # Run the web app
+Then open: http://localhost:5000 to explore the books!
 
+🧠 What We Learned
+Web scraping with requests & BeautifulSoup
+
+Database modeling with SQLAlchemy
+
+Building web apps with Flask
+
+Implementing search, pagination, and REST API
+
+Writing tests and using Git for version control
+
+Ready to explore or improve? Enjoy the code! 
