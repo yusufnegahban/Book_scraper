@@ -4,15 +4,15 @@ This app scrapes book info from Books to Scrape, saves it in a PostgreSQL databa
 🚀 Features
 Scrapes book title, author, ISBN, price, availability, publish date
 
-Handles multiple pages (pagination)
+-Handles multiple pages (pagination)
 
-Stores data using SQLAlchemy with PostgreSQL
+-Stores data using SQLAlchemy with PostgreSQL
 
-Web interface with search and pagination
+-Web interface with search and pagination
 
-REST API to get book data in JSON
+-REST API to get book data in JSON
 
-Basic unit tests for scraping and web routes
+-Basic unit tests for scraping and web routes
 
 🛠 How to Run
 پ
@@ -22,7 +22,7 @@ python app.py        # Run the web app
 Then open: http://localhost:5000 to explore the books!
 
 🧠 What We Learned
-Web scraping with requests & BeautifulSoup
+-Web scraping with requests & BeautifulSoup
 
 Database modeling with SQLAlchemy
 
