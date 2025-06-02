@@ -59,3 +59,25 @@ It’s like a mini online bookstore! 😍
 
 ```bash
 pip install -r requirements.txt
+
+
+
+## 🗃️ Setup PostgreSQL
+
+Before running the scraper or the app, make sure PostgreSQL is installed and a database is created.
+
+### 🧱 Step 1 – Install PostgreSQL
+If you haven’t already installed PostgreSQL:
+
+- [Download PostgreSQL](https://www.postgresql.org/download/)
+- During setup, remember your **username**, **password**, and **port** (default is 5432)
+
+---
+
+### 🛠️ Step 2 – Create a database
+
+Open a terminal or PostgreSQL shell and run:
+
+```sql
+CREATE DATABASE books_db;
+
